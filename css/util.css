@@ -2239,7 +2239,7 @@
 .tt-up {text-transform: uppercase;}
 
 /* ------------------------------------ */
-.t-center {text-align: left;}
+.t-center {text-align: center;}
 .t-left {text-align: left;}
 .t-right {text-align: right;}
 .t-middle {vertical-align: middle;}
@@ -3009,24 +3009,19 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit6 {
-	font-family: Poppins;
 	font-weight: 700;
 	font-size: 50px;
-	line-height: 1.2;
 	color: white;
-	text-transform: uppercase;
-	letter-spacing: 6px;
-	word-spacing: 6px;
+  font-family: Bitter-Thin;
+  letter-spacing: 0.25em;
 }
 
 .tit7 {
-	font-family: Poppins;
-	font-weight: 500;
-	font-size: 22px;
-	line-height: 1.2;
-	color: #222222;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+	font-weight: 700;
+	font-size: 38px;
+	color: white;
+  font-family: Bitter-Thin;
+  letter-spacing: 0.25em;
 }
 
 .tit8 {
@@ -3107,12 +3102,12 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .txt6 {
-	font-family: Montserrat;
 	font-weight: 400;
 	font-size: 12px;
 	color: white;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+  font-weight: bold;
+  font-family: Bitter-Thin;
+  letter-spacing: 0.25em;
 }
 
 .txt7 {
@@ -3365,6 +3360,105 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.8;
 }
 
+.txt36 {
+	font-family: Cinzel-Bold;
+	font-weight: 500;
+	font-size: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/* BUTTON ANIMATION */
+
+/* BUTTON EXPLORE */
+.button-exp {
+  width: 100%;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #1D4D22;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 35px;
+	font-weight: bold;
+	font-family: Bitter-Thin;
+	letter-spacing: 0.25em;
+}
+
+.button-exp:hover {
+  background-color: #597059;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .button-exp {
+    font-size: 35px;
+    padding: 10px 10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Bitter-Thin;
+    letter-spacing: 0.25em;
+    align-items: center;
+  }
+}
+
+/* BUTTON SHOP NOW */
+.button-81 {
+  width: 100%;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #1D4D22;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 45px;
+	font-weight: bold;
+	font-family: Bitter-Thin;
+	letter-spacing: 0.25em;
+}
+
+.button-81:hover {
+  background-color: #597059;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 60px;
+    padding: 10px 10px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Bitter-Thin;
+    letter-spacing: 0.25em;
+  }
+}
+
+.about-us {
+  background: linear-gradient(90deg, rgba(160,153,129,1) 0%, rgba(61,66,49,1) 50%, rgba(160,153,129,1) 100%);
+}
 
 /*[ Color ]
 -----------------------------------------------------------
