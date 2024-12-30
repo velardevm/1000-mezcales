@@ -2998,14 +2998,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit5 {
-	font-family: Poppins;
+	font-family: Bitter-Thin;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 60px;
 	line-height: 1.2;
-	color: #222222;
+	color: white;
 	text-transform: uppercase;
 	letter-spacing: 10px;
-	word-spacing: 8px;
+	word-spacing: 6px;
 }
 
 .tit6 {
