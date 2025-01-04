@@ -3009,29 +3009,29 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit6 {
+	font-family: Bitter-Thin;
 	font-weight: 700;
 	font-size: 50px;
 	color: white;
-  font-family: Bitter-Thin;
-  letter-spacing: 0.25em;
+	letter-spacing: 0.25em;
 }
 
 .tit7 {
+	font-family: Bitter-Thin;
 	font-weight: 700;
 	font-size: 38px;
 	color: white;
-  font-family: Bitter-Thin;
-  letter-spacing: 0.25em;
+	letter-spacing: 0.25em;
 }
 
 .tit8 {
-	font-family: Poppins;
+	font-family: Cinzel-Bold;
 	font-weight: 700;
 	font-size: 50px;
 	line-height: 1.2;
-	color: #222222;
+	color: #FFF8DD;
 	text-transform: uppercase;
-	letter-spacing: 11px;
+	letter-spacing: 2px;
 }
 
 .tit9 {
@@ -3131,26 +3131,27 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .txt9 {
 	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 15px;
-	color: #555555;
+	font-weight: 700;
+	font-size: 16px;
+	color: #fff;
 }
 
 .txt10 {
-	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 14px;
+	font-family: Arial-Rounded;
+	font-weight: 100;
+	font-size: 12px;
 	color: #666666;
+	background-color: #FFF8DD;
 }
 
 .txt11 {
-	font-family: Montserrat;
+	font-family: BebasNeue;
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 22px;
 	line-height: 1.1;
 	color: white;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 4px;
 }
 
 .txt12 {
@@ -3162,35 +3163,27 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .txt13 {
-	font-family: Poppins;
+	font-family: Cinzel-Regular;
 	font-weight: 500;
 	font-size: 18px;
-	color: white;
+	color: #527357;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
 
-.txt14 {
-	font-family: Montserrat;
-	font-weight: 400;
-	font-size: 13px;
-	color: #999999;
-	line-height: 1.7;
-}
-
 .txt15 {
-	font-family: Montserrat;
+	font-family: Cinzel-Regular;
 	font-weight: 400;
-	font-size: 13px;
-	color: #ec1d25;
+	font-size: 17px;
+	color: #527357;
 	line-height: 1.7;
 }
 
 .txt16 {
-	font-family: Montserrat;
+	font-family: Cinzel-Regular;
 	font-weight: 400;
-	font-size: 12px;
-	color: #555555;
+	font-size: 13px;
+	color: #527357;
 }
 
 .txt17 {
@@ -3343,21 +3336,21 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .txt34 {
-	font-family: Poppins;
-	font-weight: 700;
-	font-size: 18px;
+	font-family: Big-Jhon;
+	font-weight: 100;
+	font-size: 22px;
 	line-height: 1.4;
-	color: #333333;
-	letter-spacing: 2px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 6px;
 }
 
 .txt35 {
-	font-family: Montserrat;
+	font-family: Arial-Rounded;
 	font-weight: 400;
-	font-size: 12px;
-	color: #666666;
-	text-transform: uppercase;
-	line-height: 1.8;
+	font-size: 30px;
+	color: #fff;
+	line-height: 1.3;
 }
 
 .txt36 {
@@ -3414,7 +3407,36 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   }
 }
 
+
+
 /* BUTTON SHOP NOW */
+.button-limited {
+  width: 100%;
+  height: 50px;
+  background-color: #597059;
+  border: 0 solid #597059;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-limited:hover {
+  background-color: #fff;
+  color: #597059;
+}
+
 .button-81 {
   width: 100%;
   background-color: #fff;
@@ -3491,6 +3513,10 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	height: 70px;
 }
 
+.back-contact {
+	background-color: #FFF8DD;
+}
+
 .btn-text {
 	font-size: 30px;
 	font-weight: bold;
@@ -3547,11 +3573,11 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .size12 {
 	width: 100%;
-	height: 50px;
+	height: 28px;
 }
 
 .size13 {
-	width: 150px;
+	width: 100%;
 	height: 40px;
 }
 
@@ -3650,7 +3676,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .size35 {
 	width: 100%;
-	min-height: 180px;
+	min-height: 110px;
 }
 
 .size36 {
@@ -3666,14 +3692,18 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	max-width: 190px;
 }
 
+.img-footer {
+	width: 100%;
+}
+
 /*[ Background Color ]
 -----------------------------------------------------------
 */
 .bg0 {background-color: #ec1d25;}
-.bg1 {background-color: #222222;}
+.bg1 {background-color: #FFF8DD;}
 .bg2 {background-color: #111111;}
 
-.bg0-hov:hover {background-color: #ec1d25;}
+.bg0-hov:hover {background-color: #FFF8DD;}
 
 .bg1-overlay {background-color: rgba(0,0,0,0.35);}
 
@@ -3681,17 +3711,6 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[ Border ]
 -----------------------------------------------------------
 */
-.bo1 {border: 1px solid #ebebeb;}
-.bo2 {border: 2px solid #d9d9d9;}
-.bo4 {border: 4px solid #ec1d25;}
-
-.bo5-b {border-bottom: 1px solid #e6e6e6;}
-.bo5-r {border-right: 1px solid #e6e6e6;}
-
-.bo6-r {border-right: 1px solid #808080;}
-
-.bo7 {border: 2px solid #e6e6e6;}
-.bo8 {border: 5px solid white;}
 
 
 /* ------------------------------------ */
@@ -3802,17 +3821,25 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .bg1-pattern {
-	/* background-image: url(../images/icons/pattern1.png); */
 	background: linear-gradient(90deg, rgba(127,156,131,1) 0%, rgba(2,83,56,1) 50%, rgba(127,156,131,1) 100%);}
 
 .bg2-pattern {
-	background-image: url(../images/icons/pattern2.png);
-  	background-repeat: repeat;
+	background: linear-gradient(90deg, rgba(160,153,129,1) 0%, rgba(26,34,19,1) 100%, rgba(156,142,122,1) 100%);
 }
 
 .bg3-pattern {
 	background-image: url(../images/icons/pattern3.png);
   	background-repeat: repeat;
+}
+
+.bg-contacto {
+	background-image: url(../images/mil-tiempos/bg-contacto.png);
+  	background-repeat: repeat;
+}
+
+.bg-form {
+	background-color: #527357;
+	border-radius: 18px;
 }
 
 
