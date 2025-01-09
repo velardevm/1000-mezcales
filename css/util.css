@@ -710,6 +710,8 @@
 .p-b-248 {padding-bottom: 248px;}
 .p-b-249 {padding-bottom: 249px;}
 .p-b-250 {padding-bottom: 250px;}
+.p-b-350 {padding-bottom: 350px;}
+.p-b-420 {padding-bottom: 420px;}
 .p-l-0 {padding-left: 0px;}
 .p-l-1 {padding-left: 1px;}
 .p-l-2 {padding-left: 2px;}
@@ -2958,7 +2960,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit1 {
 	font-family: Bitter-Thin;
 	font-weight: 500;
-	font-size: 34px;
+	font-size: 28px;
 	line-height: 1.1;
 	color: #4e4032;
 	text-transform: uppercase;
@@ -2969,10 +2971,10 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit2 {
-	font-family: Courgette;
+	font-family: Elsie-Regular;
 	font-size: 30px;
 	line-height: 1.2;
-	color: #d61c22;
+	color: #E7A41B;
 }
 
 .tit3 {
@@ -2980,7 +2982,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 1.2;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	text-align: center;
@@ -3000,7 +3002,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .tit5 {
 	font-family: Bitter-Thin;
 	font-weight: 700;
-	font-size: 60px;
+	font-size: 45px;
 	line-height: 1.2;
 	color: white;
 	text-transform: uppercase;
@@ -3035,12 +3037,11 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit9 {
-	font-family: Poppins;
+	font-family: Elsie-Regular;
 	font-weight: 400;
-	font-size: 30px;
+	font-size: 70px;
 	line-height: 1.2;
-	color: #222222;
-	text-transform: uppercase;
+	color: #fff;
 	letter-spacing: 3px;
 }
 
@@ -3059,9 +3060,11 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 */
 .txt1 {
 	font-family: Cinzel-Bold;
-	font-size: 100px;
+	font-size: 80px;
 	line-height: 1.1;
 	color: #597059;
+	margin-left: 30px;
+	padding-left: 24px;
 }
 
 .txt2 {
@@ -3095,7 +3098,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .txt5 {
 	font-family: Cinzel-Bold;
 	font-weight: 900;
-	font-size: 60px;
+	font-size: 50px;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -3366,7 +3369,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 /* BUTTON EXPLORE */
 .button-exp {
-  width: 100%;
+  width: 70%;
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -3438,7 +3441,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .button-81 {
-  width: 100%;
+  width: 70%;
   background-color: #fff;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -3456,7 +3459,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-size: 45px;
+  font-size: 35px;
 	font-weight: bold;
 	font-family: Bitter-Thin;
 	letter-spacing: 0.25em;
@@ -3471,7 +3474,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
   .button-81 {
     font-size: 60px;
     padding: 10px 10px;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
     font-family: Bitter-Thin;
     letter-spacing: 0.25em;
@@ -3530,6 +3533,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .size3 {
 	max-width: 513px;
+	font-size: 17px;
 }
 
 .size4 {
@@ -3828,8 +3832,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 }
 
 .bg3-pattern {
-	background-image: url(../images/icons/pattern3.png);
-  	background-repeat: repeat;
+	background-color: #fff;
 }
 
 .bg-contacto {
