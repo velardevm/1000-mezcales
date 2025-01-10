@@ -2970,6 +2970,21 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	margin-left: 30px;
 }
 
+@media screen and (max-width: 1400px) {
+	.tit1 {
+		font-family: Bitter-Thin;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 1.1;
+		color: #4e4032;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		word-spacing: 10px;
+		padding-left: 24px;
+		margin-left: 30px;
+	}
+}
+
 .tit2 {
 	font-family: Elsie-Regular;
 	font-size: 30px;
@@ -2982,7 +2997,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight: 700;
 	font-size: 30px;
 	line-height: 1.2;
-	color: black;
+	color: #606060;
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	text-align: center;
@@ -3008,12 +3023,30 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	word-spacing: 6px;
+	padding-top: 150px;
+	margin-right: 120px;
+}
+
+@media screen and (max-width: 1400px) {
+	.tit5 {
+		font-family: Bitter-Thin;
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 1.2;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		word-spacing: 6px;
+		padding-top: 160px;
+		margin-right: 50px;
+	}
 }
 
 .tit6 {
 	font-family: Bitter-Thin;
 	font-weight: 700;
 	font-size: 50px;
+	text-transform: uppercase;
 	color: white;
 	letter-spacing: 0.25em;
 }
@@ -3046,13 +3079,23 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .tit10 {
-	font-family: Poppins;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 1.2;
-	color: #222222;
+	font-family: Bitter-Thin;
+	font-weight: 600;
+	font-size: 38px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	color: white;
+	letter-spacing: 0.25em;
+}
+
+.tit11 {
+	font-family: Bitter-Thin;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	text-align: center;
 }
 
 /*[ Text ]
@@ -3065,6 +3108,19 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #597059;
 	margin-left: 30px;
 	padding-left: 24px;
+	padding-top: 220px;
+}
+
+@media screen and (max-width: 1400px) {
+	.txt1 {
+		font-family: Cinzel-Bold;
+		font-size: 60px;
+		line-height: 1.1;
+		color: #597059;
+		margin-left: 30px;
+		padding-left: 24px;
+		padding-top: 120px;
+	}
 }
 
 .txt2 {
@@ -3354,6 +3410,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-size: 30px;
 	color: #fff;
 	line-height: 1.3;
+	max-width: 800px;
 }
 
 .txt36 {
@@ -3363,6 +3420,24 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+}
+
+.img-grec0 {
+	width: 7%;
+}
+
+.img-grec {
+	width: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+	.img-grec0 {
+		display: none;
+	}
+	
+	.img-grec {
+		display: none;
+	}
 }
 
 /* BUTTON ANIMATION */
@@ -3527,6 +3602,15 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	letter-spacing: 0.15em;
 }
 
+@media screen and (max-width: 1400px) {
+	.btn-text {
+		font-size: 26px;
+		font-weight: bold;
+		font-family: Bitter-Thin;
+		letter-spacing: 0.15em;
+	}
+}
+
 .size2 {
 	max-width: 100%;
 }
@@ -3586,8 +3670,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .size14 {
-	width: 118px;
-	height: 118px;
+	width: 33%;
+	height: 33%;
 }
 
 .size15 {
@@ -3754,6 +3838,14 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 	width: 100%;
 }
 
+.wrap-square {
+	overflow: hidden;
+}
+
+.wrap-square img {
+	width: 110%;
+}
+
 
 /*[ Hover img zoom]
 -----------------------------------------------------------
@@ -3875,6 +3967,16 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 }
 
 
+/* BANNER CARRUSEL */
+  
+/* On screens that are 600px wide or less*/
+@media screen and (max-width: 600px) {
+	#max_576  {
+		display: none !important;
+	}
+}
+
+
 /*=========================================================
 RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE 
 =========================================================*/
@@ -3884,7 +3986,6 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 */
 @media (max-width: 1200px) {
 	.p-l-0-xl {padding-left: 0;}
-
 }
 
 
@@ -3932,6 +4033,10 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 -----------------------------------------------------------
 */
 @media (max-width: 576px) {
+	.size14 {
+		width: 100%;
+		height: 100%;
+	}
 	.flex-col-l-sm {
 		display: -webkit-box;
 		display: -webkit-flex;
