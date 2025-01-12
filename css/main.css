@@ -94,47 +94,52 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 @font-face {
   font-family: Elsie-Black;
-  src: url('../fonts/elsie/Elsie-Black.otf'); 
+  src: url('../fonts/mil-tiempos-fonts/Elsie-Black.otf'); 
 }
 
 @font-face {
   font-family: Elsie-Regular;
-  src: url('../fonts/elsie/Elsie-Regular.otf'); 
+  src: url('../fonts/mil-tiempos-fonts/Elsie-Regular.otf'); 
 }
 
 @font-face {
   font-family: Cinzel-Bold;
-  src: url('../fonts/elsie/Cinzel-Bold.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/Cinzel-Bold.ttf'); 
 }
 
 @font-face {
   font-family: Bitter-Thin;
-  src: url('../fonts/elsie/Bitter-VariableFont_wght.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/Bitter-VariableFont_wght.ttf'); 
 }
 
 @font-face {
   font-family: Cinzel-Regular;
-  src: url('../fonts/elsie/Cinzel-VariableFont_wght.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/Cinzel-VariableFont_wght.ttf'); 
 }
 
 @font-face {
   font-family: Arial-Black;
-  src: url('../fonts/elsie/Arial\ Black.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/Arial\ Black.ttf'); 
 }
 
 @font-face {
   font-family: Arial-Rounded;
-  src: url('../fonts/elsie/Arial\ Rounded\ Bold.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/Arial\ Rounded\ Bold.ttf'); 
 }
 
 @font-face {
   font-family: BebasNeue;
-  src: url('../fonts/elsie/BebasNeue-Regular.ttf'); 
+  src: url('../fonts/mil-tiempos-fonts/BebasNeue-Regular.ttf'); 
 }
 
 @font-face {
   font-family: Big-Jhon;
-  src: url('../fonts/elsie/BIG-JOHN.otf'); 
+  src: url('../fonts/mil-tiempos-fonts/BIG-JOHN.otf'); 
+}
+
+@font-face {
+  font-family: Chalmette;
+  src: url('../fonts/mil-tiempos-fonts/ChalmetteDemoRegular.ttf'); 
 }
 
 
