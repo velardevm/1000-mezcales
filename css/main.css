@@ -1049,6 +1049,75 @@ input[type="date" i] {
   }
 }
 
+/*********************************
+3.7 Main Slider
+*********************************/
+
+.main_slider_content {
+	width: 60%;
+}
+
+.main_slider_content h6 {
+  font-family: Bitter-Thin;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 29px;
+  width: 65%;
+  font-size: 24px;
+  letter-spacing: 2px;
+	word-spacing: 10px;
+  color: #4e4032;
+}
+
+.main_slider_content h1 {
+  font-family: Cinzel-Bold;
+	font-weight: 400;
+	line-height: 1;
+  color: #597059;
+}
+
+.red_button
+{
+	display: -webkit-inline-box;
+	display: -moz-inline-box;
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	height: 50px;
+  background: #84552C;
+  border-radius: 14px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.red_button:hover {
+	background: #597059 !important;
+}
+
+.red_button a {
+	display: block;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 40px;
+	width: 100%;
+}
+
+.shop_now_button
+{
+	width: 200px;
+	margin-top: 0px;
+}
+
 
 /*[ Button1 ]
 ///////////////////////////////////////////////////////////
@@ -1738,4 +1807,37 @@ body {padding-right: 0px !important;}
   padding: 24px 24px 0px;
   margin-left: 30px;
   margin-top: 30px;
+}
+
+/* Colo shop */
+a, a:hover, a:visited, a:active, a:link
+{
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+h1{font-size: 72px;}
+h2{font-size: 40px;}
+h3{font-size: 28px;}
+h4{font-size: 24px;}
+h5{font-size: 16px;}
+h6{font-size: 14px;}
+h1, h2, h3, h4, h5, h6
+{
+	color: #282828;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+.fill_height
+{
+	height: 100%;
+}
+.super_container
+{
+	width: 100%;
+	overflow: hidden;
 }
