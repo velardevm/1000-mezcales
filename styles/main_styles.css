@@ -43,16 +43,16 @@
 }
 .product_image
 {
-	width: 150%;
+	width: 40%;
 }
 .product_image img
 {
-	width: 150%;
+	width: 40%;
 }
 
 @media (max-width: 576px) {
 	.product_image {
-	  width: 100%;
+	  width: 33%;
 	}
   }
 
