@@ -36,11 +36,6 @@
 
 @media only screen and (max-width: 1540px)
 {
-	.tit5 {
-		font-size: 45px;
-		padding-top: 50px;
-		margin-right: 50px;
-	}
 	.product_image {
 		width: 40% !important;
 	}
@@ -61,6 +56,12 @@
 
 @media only screen and (max-width: 1280px)
 {
+	.tit5 {
+		font-size: 52px;
+		padding-top: 10px;
+		margin-right: 50px;
+		width: 680px;
+	}
 	.main_slider_content h1 {
 		margin-top: 60px;
 	}
@@ -134,10 +135,10 @@
 @media only screen and (max-width: 1024px)
 {
 	.tit5 {
-
-		font-size: 20px;
+		font-size: 48px;
 		padding-top: 10px;
-		margin-right: 50px;
+		margin-right: 20px;
+		width: 640px;
 	}
 	.main_slider_content h1 {
 		margin-top: 60px;
@@ -494,6 +495,209 @@
 
 @media only screen and (max-width: 479px)
 {
+	.tit5 {
+		font-size: 28px;
+		padding-top: 10px;
+		margin-right: 0px;
+		padding-right: 0px;
+		width: 300px;
+		word-spacing: 2px;
+	}
+
+	.button-81 {
+		padding: 10px 30px;
+		font-size: 29px;
+		letter-spacing: 2px;
+	}
+
+	.box-shop {
+		width: 400px;
+	}
+
+	.txt36 {
+		font-size: 18px;
+	}
+
+	.tit6 {
+		font-size: 28px;
+	}
+
+	.tit7 {
+		font-size: 19px;
+		padding-top: 4px;
+	}
+
+	.btn-learn {
+		padding-top: 15px;
+	}
+
+	.tit8 {
+		font-size: 42px;
+	}
+
+	.txt35 {
+		font-size: 22px;
+	}
+
+	.txt37 {
+		font-size: 23px;
+		letter-spacing: 3px;
+		padding: 10px 20px;
+	}
+
+	.button-exp {
+		font-size: 30px;
+	}
+
+	.form-p {
+		margin: 10px 20px;
+	}
+
+	.tit9 {
+		font-size: 45px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.tit2 {
+		font-size: 28px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.size3 {
+		font-size: 15px;
+	}
+
+	.tit12 {
+		padding-top: 50px;
+		font-size: 60px;
+	}
+
+	.txt34 {
+		font-size: 17px;
+	}
+
+	.timeline-p {
+		width: 60%;
+		align-items: end !important;
+	}
+
+	.timeline-img {
+		width: 40%;
+		align-items: end !important;
+	}
+
+	.description-b {
+		width: 100%; 
+		padding: 0px 10px;
+	}
+
+	.img-botella {
+		width: auto;
+		height: 350px;
+		align-items: end;
+		margin-left: 10px;
+	}
+
+	.txt2 {
+		font-size: 22px;
+		margin-left: 15px;
+		width: 70%;
+		padding-left: 30px;
+	}
+
+	.txt3 {
+		margin-left: 15px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		font-size: 14px;
+		padding-left: 30px;
+	}
+
+	.txt3-anejo {
+		margin-left: 15px;
+		margin-top: 10px;
+		margin-bottom: 15px;
+		font-size: 14px;
+		padding-left: 30px;
+	}
+
+	.button-shop {
+		width: 80%;
+		height: 40px;
+	}
+
+	.header-container {
+		width: 100%;
+	}
+
+	.onMobile {
+		display: contents;
+  	}
+  
+	.onWeb {
+		display: none;
+	}
+
+	.row-sub {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+
+	.description-bottle {
+		max-width: 600px;
+		margin-top: 25px;
+		padding-left: 21px;
+	}
+
+	.description-bottle-mobile {
+		max-width: 400px;
+		margin-top: 0px;
+		padding-left: 0px;
+	}
+
+	.txt4 {
+		font-size: 13px;
+	}
+
+	.txt8 {
+		font-size: 13px;
+	}
+
+	.vl-mobile {
+		border-right: 3px solid #fff;
+		height: 115px;
+		padding-right: 10px;
+	}
+
+	.vl-mobile-90 {
+		border-right: 3px solid #fff;
+		height: 90px;
+		padding-right: 10px;
+	}
+
+	.vl-mobile-110 {
+		border-right: 3px solid #fff;
+		height: 110px;
+		padding-right: 10px;
+	}
+
+	.vl-mobile-135 {
+		border-right: 3px solid #fff;
+		height: 135px;
+		padding-right: 10px;
+	}
+
+	.padding-ext {
+		padding-top: 0px;
+	}
+
+	
 	.logo_container a
 	{
 		font-size: 12px;

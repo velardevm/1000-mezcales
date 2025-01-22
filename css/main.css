@@ -1540,6 +1540,9 @@ body {padding-right: 0px !important;}
   opacity: 1;
 }
 
+.onMobile {
+  display: none;
+}
 
 
 /*[ Blog ]
@@ -1603,11 +1606,6 @@ body {padding-right: 0px !important;}
   background-position: center 0;
   background-size: cover;
   background-color: rgba(0,0,0,0.5);
-}
-
-@media (max-width: 576px) {
-  .bg-title-page .tit6 {font-size: 40px;}
-  .tit10 {font-size: 28px;}
 }
 
 
