@@ -3107,6 +3107,10 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 0.20em;
 }
 
+.text-story {
+	padding-top: 40px;
+}
+
 /*[ Text ]
 -----------------------------------------------------------
 */

@@ -47,7 +47,10 @@
 
 @media only screen and (max-width: 1380px)
 {
-	
+	.txt37 {
+		font-size: 21px;
+		width: 100%;
+	}
 }
 
 /************
@@ -72,6 +75,10 @@
 	.product_image {
 		width: 33% !important;
 	}
+
+	.txt37 {
+		font-size: 20px;
+	}
 	
 }
 
@@ -81,6 +88,11 @@
 
 @media only screen and (max-width: 1199px)
 {
+	.txt37 {
+		font-size: 18px;
+		letter-spacing: 4px;
+	}
+
 	.wrap-menu-header {
 		height: 80px;
 	}
@@ -154,6 +166,11 @@
 
 @media only screen and (max-width: 991px)
 {
+	.txt37 {
+		font-size: 18px;
+		letter-spacing: 0px;
+	}
+
 	.wrap-menu-header {
 		height: 80px;
 	}
@@ -506,12 +523,8 @@
 
 	.button-81 {
 		padding: 10px 30px;
-		font-size: 29px;
+		font-size: 25px;
 		letter-spacing: 2px;
-	}
-
-	.box-shop {
-		width: 400px;
 	}
 
 	.txt36 {
@@ -519,7 +532,7 @@
 	}
 
 	.tit6 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	.tit7 {
@@ -540,9 +553,10 @@
 	}
 
 	.txt37 {
-		font-size: 23px;
+		font-size: 21px;
 		letter-spacing: 3px;
 		padding: 10px 20px;
+		font-weight: 0;
 	}
 
 	.button-exp {
@@ -570,12 +584,13 @@
 	}
 
 	.tit12 {
-		padding-top: 50px;
-		font-size: 60px;
+		padding-top: 90px;
+		font-size: 35px;
+		letter-spacing: 0.10em;
 	}
 
 	.txt34 {
-		font-size: 17px;
+		font-size: 15px;
 	}
 
 	.timeline-p {
@@ -603,24 +618,24 @@
 	.txt2 {
 		font-size: 22px;
 		margin-left: 15px;
-		width: 70%;
-		padding-left: 30px;
+		width: 80%;
+		padding-left: 20px;
 	}
 
 	.txt3 {
 		margin-left: 15px;
-		margin-top: 10px;
-		margin-bottom: 30px;
+		margin-top: 5px;
+		margin-bottom: 20px;
 		font-size: 14px;
-		padding-left: 30px;
+		padding-left: 20px;
 	}
 
 	.txt3-anejo {
 		margin-left: 15px;
 		margin-top: 10px;
 		margin-bottom: 15px;
-		font-size: 14px;
-		padding-left: 30px;
+		font-size: 13px;
+		padding-left: 5px;
 	}
 
 	.button-shop {
@@ -652,7 +667,7 @@
 	.description-bottle {
 		max-width: 600px;
 		margin-top: 25px;
-		padding-left: 21px;
+		padding-left: 5px;
 	}
 
 	.description-bottle-mobile {
@@ -662,11 +677,11 @@
 	}
 
 	.txt4 {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.txt8 {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 	.vl-mobile {
@@ -695,6 +710,27 @@
 
 	.padding-ext {
 		padding-top: 0px;
+	}
+
+	.onResponsive {
+		width: 90%;
+	}
+
+	.txt7 {
+		font-size: 13px;
+	}
+
+	.txt17 {
+		font-size: 12px;
+	}
+
+	.tit13 {
+		font-size: 15px;
+		line-height: 300%;
+	}
+
+	.text-story {
+		padding-top: 20px;
 	}
 
 	
