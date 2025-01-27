@@ -400,7 +400,7 @@
 
         <!-- Form -->
 				<div class="col-lg-5 p-b-30 bg-form form-p">
-					<form class="wrap-form-booking">
+					<form class="wrap-form-booking" action="send.php" method="post">
 						<div class="row">
 							<div class="col-md-8 mx-auto m-t-30">
 								<!-- Name -->
@@ -418,7 +418,7 @@
 								</span>
 
 								<div class="wrap-inputname size12 bo-rad-10 m-t-3 m-b-13">
-									<input class="bo-rad-10 sizefull txt10 p-l-10" type="text" name="name" placeholder="Company name">
+									<input class="bo-rad-10 sizefull txt10 p-l-10" type="text" name="company" placeholder="Company name">
 								</div>
 
 								<!-- Phone -->
@@ -445,22 +445,17 @@
 								</span>
 
 								<div class="wrap-inputname size12 bo-rad-10 m-t-3 m-b-13">
-									<input class="bo-rad-10 sizefull txt10 p-l-10" type="text" name="name" placeholder="Briefly describe the subject">
+									<input class="bo-rad-10 sizefull txt10 p-l-10" type="text" name="subject" placeholder="Briefly describe the subject">
 								</div>
 
                 <!-- Mensaje -->
                 <span class="txt9">
                   Message
                 </span>
-                <textarea 
-                  class="bo-rad-10 size35 bo2 txt10 p-l-5 p-t-5 m-b-10 m-t-3" 
-                  name="message" 
-                  placeholder="Message"
-                  >
-                </textarea>
+                <textarea class="bo-rad-10 size35 bo2 txt10 p-l-5 p-t-5 m-b-10 m-t-3" name="message" placeholder="Message"></textarea>
 
                 <!-- SUBMIT -->
-                <button type="submit" class="btn3 flex-c-m size13 txt11 trans-0-4 m-t-10">
+                <button type="submit" name="send" class="btn3 flex-c-m size13 txt11 trans-0-4 m-t-10">
                   SEND MESSAGE
                 </button>
 
