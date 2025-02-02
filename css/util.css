@@ -10005,6 +10005,16 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	padding-left: 155px;
 }
 
+.txt3-love {
+	font-family: Elsie-Regular;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 1.1;
+	color: #fff;
+	margin-top: 10px;
+	padding-left: 155px;
+}
+
 .txt3-anejo {
 	font-family: Elsie-Regular;
 	font-weight: 400;
@@ -10035,7 +10045,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .description-bottle-50 {
 	max-width: 500px;
-	margin-top: 72px;
+	margin-top: 32px;
 	padding-left: 150px;
 }
 
