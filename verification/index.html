@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Mil Tiempos Mezcal Verification </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+  <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+    <!-- Intro -->
+      <div id="intro">
+        <img src="images/logo.png" alt="" />
+        <p class="label-intro"> Confirm that you are over 18 years old and come join us! </p>
+        <p class="label-notAllow"> Sorry you are not old enough to view this content </p>
+        <div class="field-age">
+          <input 
+            class="input-age"
+            type="number" 
+            name="name" 
+            id="age-input" 
+            placeholder="YYYY" 
+            max="2030" 
+            min="1915" 
+            maxlength="4" 
+            oninput="maxLengthCheck(this)"
+          />
+        </div>
+        <div class="row box-btn">
+          <ul class="actions special">
+            <li><a href="#" class="button" onclick="validate_age()"> Enter </a></li>
+          </ul>
+        </div>
+      </div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+      <script>
+        function maxLengthCheck(object)
+        {
+          if (object.value.length > object.maxLength)
+            object.value = object.value.slice(0, object.maxLength)
+        }
+      </script>
+
+	</body>
+</html>
