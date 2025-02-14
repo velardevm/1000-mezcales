@@ -14,8 +14,14 @@
     <!-- Intro -->
       <div id="intro">
         <img src="images/logo.png" alt="" />
-        <p class="label-intro"> Confirm that you are over 18 years old and come join us! </p>
-        <p class="label-notAllow"> Sorry you are not old enough to view this content </p>
+        <p class="label-intro" id="main-p"> Confirm that you are over 18 years old and come join us! </p>
+        <p 
+          class="label-notAllow" 
+          style="display: none;"
+          id="advice-p"
+          > 
+          Sorry you are not old enough to view this content 
+        </p>
         <div class="field-age">
           <input 
             class="input-age"
@@ -31,7 +37,9 @@
         </div>
         <div class="row box-btn">
           <ul class="actions special">
-            <li><a href="#" class="button" onclick="validate_age()"> Enter </a></li>
+            <li>
+              <a href="#" class="button" onclick="validate_age()"> Enter </a>
+            </li>
           </ul>
         </div>
       </div>

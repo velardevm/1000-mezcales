@@ -141,12 +141,14 @@
 <body class="animsition">
 
   <!-- Verification age  -->
-  <iframe 
-    src="./verification/index.html" 
-    class="verification-style"
-    id="verfication-z"
-    >
-  </iframe>
+  <div id="iframeHolder" class="container">
+    <iframe 
+      src="./verification/index.html" 
+      class="verification-style"
+      id="frame"
+      >
+    </iframe>
+  </div>
 
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6PR8TH7" height="0" width="0"
@@ -813,6 +815,20 @@
   <script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
   <!--===============================================================================================-->
   <script src="js/main.js"></script>
+  <!--===============================================================================================-->
+  
+  <!-- VERIFICATION COOKIES  -->
+  <script type="text/javascript">
+    const checkCookie = localStorage.getItem('verification')
+    console.log(checkCookie);
+
+    if(checkCookie == 'true') {
+      document.querySelector('.container').classList.add('nonactive')
+    }
+    else {
+      document.querySelector('.container').classList.remove('nonactive')
+    } 
+  </script>
 
   <!--  banner-carrusel -->
   <script src="js/jquery-3.2.1.min.js"></script>

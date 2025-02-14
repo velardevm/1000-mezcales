@@ -736,24 +736,31 @@ ul.actions {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 1rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				padding: 3rem 3rem 10rem 2rem ;
+				min-height: 100%;
+				background-color: #fdf6df;
 			}
 
-				#intro h1 {
-					font-size: 3.25rem;
-					line-height: 1.1;
-					margin-bottom: 1rem;
-				}
+			#intro h1 {
+				font-size: 3.25rem;
+				line-height: 1.1;
+				margin-bottom: 1rem;
+			}
 
-				#intro p {
-					font-size: 1rem;
-					margin-top: 0rem;
-				}
+			#intro p {
+				font-size: 12px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
 
-				#intro .actions {
-					display: none;
-				}
+			#intro .actions {
+				display: block;
+				margin-bottom: 50px;
+			}
+
+			.field-age {
+				width: 100%;
+			}
 
 		}
 
@@ -886,15 +893,19 @@ ul.actions {
     /* Button Verification */
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #000000;
-			color: #000000 !important;
+			box-shadow: inset 0 0 0 2px #527357;
+			color: #527357 !important;
 		}
 
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #527357;
-				color: #527357 !important;
+				box-shadow: inset 0 0 0 2px #000000;
+				color: #000000 !important;
+			}
+
+			.iframeHolder {
+				display: none;
 			}
 
 

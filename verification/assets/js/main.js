@@ -123,25 +123,6 @@
 	// Background.
 		$wrapper._parallax(0.925);
 
-	// Nav Panel.
-
-		// Toggle.
-			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
-			)
-				.appendTo($wrapper);
-
-			// Change toggle styling once we've scrolled past the header.
-				$header.scrollex({
-					bottom: '5vh',
-					enter: function() {
-						$navPanelToggle.removeClass('alt');
-					},
-					leave: function() {
-						$navPanelToggle.addClass('alt');
-					}
-				});
-
 		// Panel.
 			$navPanel = $(
 				'<div id="navPanel">' +
@@ -196,84 +177,44 @@
 					$navPanel
 						.css('transition', 'none');
 
-	// Intro.
-		var $intro = $('#intro');
-
-		if ($intro.length > 0) {
-
-			// Hack: Fix flex min-height on IE.
-				if (browser.name == 'ie') {
-					$window.on('resize.ie-intro-fix', function() {
-
-						var h = $intro.height();
-
-						if (h > $window.height())
-							$intro.css('height', 'auto');
-						else
-							$intro.css('height', h);
-
-					}).trigger('resize.ie-intro-fix');
-				}
-
-			// Hide intro on scroll (> small).
-				breakpoints.on('>small', function() {
-
-					$main.unscrollex();
-
-					$main.scrollex({
-						mode: 'bottom',
-						top: '25vh',
-						bottom: '-50vh',
-						enter: function() {
-							$intro.addClass('hidden');
-						},
-						leave: function() {
-							$intro.removeClass('hidden');
-						}
-					});
-
-				});
-
-			// Hide intro on scroll (<= small).
-				breakpoints.on('<=small', function() {
-
-					$main.unscrollex();
-
-					$main.scrollex({
-						mode: 'middle',
-						top: '15vh',
-						bottom: '-15vh',
-						enter: function() {
-							$intro.addClass('hidden');
-						},
-						leave: function() {
-							$intro.removeClass('hidden');
-						}
-					});
-
-			});
-
-		}
 
 
 })(jQuery);
 
-/* VERIFICATION  */
+/* VERIFICATION COOKIES */
+
 function validate_age() {
 
 	let input = document.getElementById('age-input').value;
+	let hidden = document.getElementById('main-p');
+	let onShow = document.getElementById('advice-p');
+
 	const date = new Date();
 	const currentYear = date.getFullYear();
 	const age = parseInt(input) + 18
+
+	if( input.length == 0) {
+		return
+	}
 
 	if( parseInt(input) < 1915) {
 		return
 	}
 
 	if( age <= currentYear ) {
-		$('#verfication-z').remove();
+		console.log('Mayor de edad');
+		document.cookie = "uimonkCookie=uimonk;max-age"+ 60*60*24*30
+		localStorage.setItem('verification', true)
+		setTimeout(() => {
+			window.location.href = "https://miltiemposmezcal.com/"
+		}, 100);
 	}
+
+	//Menor de edad
 	else {
-		alert("Your under")
+		onShow.style.display = "block";
+		hidden.style.display = "none";
+		document.getElementById("age-input").disabled = true;
+		localStorage.setItem('verification', false)
 	}
 }

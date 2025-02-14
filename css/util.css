@@ -11220,6 +11220,11 @@ a {
     overflow: hidden;
     z-index: 99999999999;
     background: #fff;
+	display: block;
+}
+
+.nonactive {
+	display: none !important;
 }
 
 /* ANIMATIONS
